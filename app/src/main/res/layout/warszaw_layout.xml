@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/warszaw_layout" >
+    
+    <TextView
+        android:id="@+id/warsz_desc"
+        style="@style/error"
+        android:text="@string/warsz_desc" />
+    
+    <EditText android:id="@+id/p1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned" />
+    
+    <EditText android:id="@+id/p2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned" />
+    
+    <EditText android:id="@+id/p3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned" />
+    
+    <EditText android:id="@+id/p4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned" />
+    
+    <Button
+            android:id="@+id/count_points"
+            style="@style/buttons"
+            android:text="@string/count_points"/>
+
+
+</LinearLayout>

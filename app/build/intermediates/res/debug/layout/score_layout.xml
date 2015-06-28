@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scroll_score">
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     
+    android:id="@+id/score_layout" >
+
+    <TableRow
+        android:id="@+id/score_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" 
+        android:gravity="center_horizontal">
+ 
+        <TextView
+            android:id="@+id/player1"
+            style="@style/scores"
+            android:layout_weight=".21" />
+        
+        <TextView
+            android:id="@+id/player2"            
+            style="@style/scores"
+            android:layout_weight=".21"/>
+        
+        <TextView
+            android:id="@+id/player3"            
+            style="@style/scores"
+            android:layout_weight=".21" />
+        
+        <TextView
+            android:id="@+id/player4"            
+            style="@style/scores"
+            android:layout_weight=".21" />
+        
+        <TextView
+            android:id="@+id/jew"
+            android:text="@string/jew"            
+            style="@style/scores"
+            android:layout_weight=".16" />
+ 
+    </TableRow>
+    
+   
+</TableLayout>
+</ScrollView><!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/layout/score_layout.xml -->

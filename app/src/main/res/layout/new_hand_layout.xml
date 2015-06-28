@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+            android:id="@+id/first"
+            style="@style/buttons"
+            android:text="@string/first"
+	        android:onClick="startFirst" />
+    
+    <Button
+            android:id="@+id/second"
+            style="@style/buttons"
+            android:text="@string/second"
+	        android:onClick="startSecond" />
+    
+    <Button
+            android:id="@+id/third"
+            style="@style/buttons"
+            android:text="@string/third"
+	        android:onClick="startThird" />
+    
+    <Button
+            android:id="@+id/fourth"
+            style="@style/buttons"
+            android:text="@string/fourth"
+	        android:onClick="startThird" />
+    
+    <Button
+            android:id="@+id/warszaw"
+            style="@style/buttons"
+            android:text="@string/warszaw"
+	        android:onClick="startWarszaw" />
+    
+    <Button
+            android:id="@+id/add_jew"
+            style="@style/buttons"
+            android:text="@string/add_jew"
+	        android:onClick="feedJew" /> 
+
+    
+    <Button
+            android:id="@+id/restart"
+            style="@style/buttons"
+            android:text="@string/new_game"
+	        android:onClick="restart" /> 
+    
+
+</LinearLayout>

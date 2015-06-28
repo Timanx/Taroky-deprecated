@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="add_jew">Spálená hra</string>
+    <string name="app_name">Taroky</string>
+    <string name="at_least_one_player">Zaškrtněte alespoň jednoho hráče</string>
+    <string name="back">Zpět</string>
+    <string name="cancel">Ne</string>
+    <string name="continue_game">Další kolo</string>
+    <string name="count_points">Spočítat body</string>
+    <string name="delete_last">Kolo zpět</string>
+    <string name="dialog_new_game">Opravdu chcete začít novou hru?</string>
+    <string name="exactly_one_player">Vyberte jednoho hráče</string>
+    <string name="faulting_player">Zaškrtněte chybujícího hráče</string>
+    <string name="first">1. povinnost</string>
+    <string name="first_desc">Zaškrtněte vydražitele a jeho spoluhráče</string>
+    <string name="first_player">První hráč</string>
+    <string name="first_points">Počet bodů vydražitele</string>
+    <string name="fourth">4. povinnost</string>
+    <string name="fourth_player">Čtvrtý hráč</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jew">Žid</string>
+    <string name="load_game">Načíst hru</string>
+    <string name="new_game">Nová hra</string>
+    <string name="new_jew_points">Počet bodů do žida</string>
+    <string name="pagat">Pokud vydražitel uhrál pagáta</string>
+    <string name="radiobutton_desc">Zaškrtněte vydražitele</string>
+    <string name="save">Uložit hru</string>
+    <string name="second">2. povinnost</string>
+    <string name="second_player">Druhý hráč</string>
+    <string name="start_game">Začít hru</string>
+    <string name="third">3. povinnost</string>
+    <string name="third_player">Třetí hráč</string>
+    <string name="title_activity_new_game">Nová hra</string>
+    <string name="too_many_players">Zaškrtnuto příliš mnoho hráčů</string>
+    <string name="toomany">Zaškrtnuto příliš mnoho hráčů</string>
+    <string name="warsz_desc">Napište, kolik kdo odečítá</string>
+    <string name="warszaw">Varšava</string>
+    <string name="wrong_points">Špatně vyplněný počet bodů</string>
+    <string name="wrong_points1">Špatně vyplněný počet bodů u prvního hráče</string>
+    <string name="wrong_points2">Špatně vyplněný počet bodů u druhého hráče</string>
+    <string name="wrong_points3">Špatně vyplněný počet bodů u třetího hráče</string>
+    <string name="wrong_points4">Špatně vyplněný počet bodů u čtvrtého hráče</string>
+    <string name="yes">Ano</string>
+    <!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="buttons" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">8pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">5pt</item>
+        <item name="android:textColor">#000</item>
+
+    </style>
+    <style name="error" parent="@android:style/TextAppearance.Medium">
+        
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">9pt</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center_horizontal</item>
+        
+    </style>
+    <style name="scores" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">7pt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">3pt</item>
+        <item name="android:textColor">#fff</item>
+
+    </style>
+</resources>

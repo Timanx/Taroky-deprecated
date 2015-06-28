@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/player_checkbox_layout">
+    
+	<TextView
+	    android:id="@+id/first_desc"
+            style="@style/error"
+	        android:text="@string/first_desc"/>
+    
+	<CheckBox android:id="@+id/checkbox_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<CheckBox android:id="@+id/checkbox_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<CheckBox android:id="@+id/checkbox_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+	
+	<CheckBox android:id="@+id/checkbox_fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>
