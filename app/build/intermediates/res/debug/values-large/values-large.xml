@@ -2,35 +2,8 @@
 <resources>
     <!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/values-large/strings.xml -->
     <eat-comment/>
-    <string name="action_settings">Settings</string>
-    <string name="add_jew">Spálená hra</string>
-    <string name="app_name">Taroky</string>
-    <string name="back">Zpět</string>
-    <string name="continue_game">Další kolo</string>
-    <string name="count_points">Spočítat body</string>
     <string name="delete_last">Zrušit poslední kolo</string>
-    <string name="first">1. povinnost</string>
-    <string name="first_desc">Zaškrtněte vydražitele a jeho spoluhráče</string>
-    <string name="first_player">První hráč</string>
-    <string name="first_points">Počet bodů vydražitele</string>
-    <string name="fourth">4. povinnost</string>
-    <string name="fourth_player">Čtvrtý hráč</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="jew">Žid</string>
-    <string name="load_game">Načíst hru</string>
-    <string name="new_game">Nová hra</string>
-    <string name="new_jew_points">Počet bodů do žida</string>
     <string name="pagat">Zaškrtněte, pokud vydražitel uhrál pagáta</string>
-    <string name="radiobutton_desc">Zaškrtněte vydražitele</string>
-    <string name="second">2. povinnost</string>
-    <string name="second_player">Druhý hráč</string>
-    <string name="start_game">Začít hru</string>
-    <string name="third">3. povinnost</string>
-    <string name="third_player">Třetí hráč</string>
-    <string name="title_activity_new_game">Nová hra</string>
-    <string name="toomany">Zaškrtnuto příliš mnoho hráčů</string>
-    <string name="warsz_desc">Napište, kolik kdo odečítá</string>
-    <string name="warszaw">Varšava</string>
     <!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/values-large/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">

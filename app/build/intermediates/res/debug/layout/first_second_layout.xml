@@ -14,7 +14,8 @@
 	<Button
             android:id="@+id/count_points"
             style="@style/buttons"
-            android:text="@string/count_points"/>
+            android:text="@string/count_points"
+            android:onClick=""/>
 
     
 </LinearLayout>
