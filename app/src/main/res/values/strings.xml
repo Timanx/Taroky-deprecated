@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="new_game">Nová hra</string>
     <string name="load_game">Načíst hru</string>
+    <string name="load_game_anyway">Načíst předchozí hru</string>
     <string name="title_activity_new_game">Nová hra</string>
     <string name="hello_world">Hello world!</string>
     <string name="first_player">První (začínající) hráč</string>

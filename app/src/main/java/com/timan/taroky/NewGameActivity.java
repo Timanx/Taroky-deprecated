@@ -1,10 +1,12 @@
 package com.timan.taroky;
 
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
 import android.app.DialogFragment;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
@@ -63,6 +65,35 @@ public class NewGameActivity extends FragmentActivity implements NewGameAlert.No
 			}
 		}
 	}
+
+    /**
+     * Start game with loaded data
+     * @param view	View	data loaded from a file
+     */
+    public void loadGameAnyway(View view)
+    {
+        String filename = "taroky.txt";
+        FileInputStream fin;
+
+        try {
+            fin = openFileInput(filename);
+
+            int c;
+            String data="";
+            while((c = fin.read()) != -1){
+                data = data + Character.toString((char)c);
+            }
+            //string temp contains all the data of the file.
+            fin.close();
+
+            Intent intent = new Intent(this, NewGameActivity.class);
+            intent.putExtra("loaded_game", data);
+            startActivity(intent);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 	public void restart(View view)
 	{
