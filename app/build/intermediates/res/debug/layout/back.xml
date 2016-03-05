@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/back"
-    style="@style/buttons"
-    android:text="@string/back" />
-<!-- From: file:/C:/_Tíman/AndroidStudio/Taroky/app/src/main/res/layout/back.xml -->
