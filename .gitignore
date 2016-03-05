@@ -1,10 +1,12 @@
 /app/build
+/app/app.iml
 /.idea
 /.git
 /.gradle
+/gradle
 /build
 gradlew.bat
-gradlew.txt
+gradlew
 import-summary.txt
 Taroky.iml
 local.properties
