@@ -415,13 +415,13 @@ public class NewGameActivity extends FragmentActivity implements NewGameAlert.No
 				TextView error = (TextView)findViewById(R.id.error);
 				error.setText("");
 
-				if(first_player.getText().toString().matches("")) error.setText(getResources().getString(R.string.wrong_points1));
+				if(first_player.getText().toString().matches("")) new_scores[0] = 0;
 				else new_scores[0] -= Integer.parseInt(first_player.getText().toString());
-				if(second_player.getText().toString().matches("")) error.setText(getResources().getString(R.string.wrong_points2));
+				if(second_player.getText().toString().matches("")) new_scores[1] = 0;
 				else new_scores[1] -= Integer.parseInt(second_player.getText().toString());
-				if(third_player.getText().toString().matches("")) error.setText(getResources().getString(R.string.wrong_points3));
+				if(third_player.getText().toString().matches("")) new_scores[2] = 0;
 				else new_scores[2] -= Integer.parseInt(third_player.getText().toString());
-				if(fourth_player.getText().toString().matches("")) error.setText(getResources().getString(R.string.wrong_points4));
+				if(fourth_player.getText().toString().matches("")) new_scores[3] = 0;
 				else new_scores[3] -= Integer.parseInt(fourth_player.getText().toString());
 
 				for(int i = 0; i < NUM_PLAYERS; i++)
@@ -548,7 +548,7 @@ public class NewGameActivity extends FragmentActivity implements NewGameAlert.No
 		Button go_back = (Button)findViewById(R.id.back);
 		gameLayout.addView(inflater.inflate(R.layout.score_layout, null));
 
-		for(int i = 0; i < total_scores.size(); i = i + 5) {
+        for (int i = 0; i < total_scores.size(); i = i + 5) {
 			addRow(i);
 		}
         TextView shufflingPlayer = (TextView) findViewById(R.id.shufflingPlayer);
