@@ -1,1 +1,12 @@
 /app/build
+/.idea
+/.git
+/.gradle
+/build
+gradlew.bat
+gradlew.txt
+import-summary.txt
+Taroky.iml
+local.properties
+build.gradle
+settings.gradle
