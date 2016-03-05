@@ -7,10 +7,10 @@
     <string name="load_game">Načíst hru</string>
     <string name="title_activity_new_game">Nová hra</string>
     <string name="hello_world">Hello world!</string>
-    <string name="first_player">První hráč</string>
+    <string name="first_player">První (začínající) hráč</string>
     <string name="second_player">Druhý hráč</string>
     <string name="third_player">Třetí hráč</string>
-    <string name="fourth_player">Čtvrtý hráč</string>
+    <string name="fourth_player">Čtvrtý hráč (míchá karty)</string>
     <string name="start_game">Začít hru</string>
     <string name="first">1. povinnost</string>
     <string name="second">2. povinnost</string>
@@ -43,5 +43,6 @@
     <string name="at_least_one_player">Zaškrtněte alespoň jednoho hráče</string>
     <string name="exactly_one_player">Vyberte jednoho hráče</string>
     <string name="too_many_players">Zaškrtnuto příliš mnoho hráčů</string>
+    <string name="shuffling_player">míchá</string>
 
 </resources>

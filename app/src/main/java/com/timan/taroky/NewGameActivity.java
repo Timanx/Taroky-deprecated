@@ -33,7 +33,7 @@ public class NewGameActivity extends FragmentActivity implements NewGameAlert.No
 	private String[] players = new String[NUM_PLAYERS];
 	private ArrayList<Integer> total_scores = new ArrayList<Integer>();
 
-	//preventing from accidentally killing the app
+    //preventing from accidentally killing the app
 	@Override
 	public void onBackPressed() {
 		//do nothing
@@ -551,6 +551,8 @@ public class NewGameActivity extends FragmentActivity implements NewGameAlert.No
 		for(int i = 0; i < total_scores.size(); i = i + 5) {
 			addRow(i);
 		}
+        TextView shufflingPlayer = (TextView) findViewById(R.id.shufflingPlayer);
+        shufflingPlayer.setText(players[((total_scores.size()/5)%4+2)%4] + " " + getResources().getString(R.string.shuffling_player));
 
 
 		TextView header = (TextView) findViewById(R.id.player1);

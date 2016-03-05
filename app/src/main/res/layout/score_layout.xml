@@ -18,33 +18,34 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="5dip" 
+        android:paddingRight="15dip"
         android:gravity="center_horizontal">
  
         <TextView
             android:id="@+id/player1"
             style="@style/scores"
-            android:layout_weight=".20"
+            android:layout_weight=".17"
             android:layout_width="0px"
             android:gravity="right"/>
         
         <TextView
             android:id="@+id/player2"            
             style="@style/scores"
-            android:layout_weight=".20"
+            android:layout_weight=".19"
             android:layout_width="0px"
             android:gravity="right"/>
         
         <TextView
             android:id="@+id/player3"            
             style="@style/scores"
-            android:layout_weight=".20"
+            android:layout_weight=".19"
             android:layout_width="0px"
             android:gravity="right"/>
         
         <TextView
             android:id="@+id/player4"            
             style="@style/scores"
-            android:layout_weight=".20"
+            android:layout_weight=".19"
             android:layout_width="0px"
             android:gravity="right"/>
         
@@ -52,9 +53,15 @@
             android:id="@+id/jew"
             android:text="@string/jew"            
             style="@style/scores"
-            android:layout_weight=".20"
+            android:layout_weight=".19"
             android:layout_width="0px"
             android:gravity="right"/>
+
+        <TextView
+                style="@style/scores"
+                android:layout_weight=".08"
+                android:layout_width="0px"
+                android:gravity="right"/>
  
     </TableRow>
 </TableLayout>
@@ -64,15 +71,28 @@
         android:layout_height="wrap_content"
         android:id="@+id/scroll_score">
 
-    <TableLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:orientation="vertical"
-            android:stretchColumns="*"
-            android:id="@+id/score_layout" >
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/shuffling_area">
 
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:stretchColumns="*"
+                android:id="@+id/score_layout" >
+        </TableLayout>
 
-
-    </TableLayout>
+        <TextView
+                android:id="@+id/shufflingPlayer"
+                style="@style/scores"
+                android:paddingLeft="15dip"
+                android:layout_width="fill_parent"/>
+    </LinearLayout>
 </ScrollView>
+
 </LinearLayout>

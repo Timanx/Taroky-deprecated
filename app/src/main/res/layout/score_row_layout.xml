@@ -4,41 +4,48 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:padding="5dip"
+    android:paddingRight="15dip"
     android:gravity="center_horizontal">
 
     <TextView
         android:id="@+id/player1_score"
         style="@style/scores"
-        android:layout_weight=".20"
+        android:layout_weight=".17"
         android:layout_width="0px"
         android:gravity="right"/>
 
     <TextView
         android:id="@+id/player2_score"
         style="@style/scores"
-        android:layout_weight=".20"
+        android:layout_weight=".19"
         android:layout_width="0px"
         android:gravity="right"/>
 
     <TextView
         android:id="@+id/player3_score"
         style="@style/scores"
-        android:layout_weight=".20"
+        android:layout_weight=".19"
         android:layout_width="0px"
         android:gravity="right"/>
 
     <TextView
         android:id="@+id/player4_score"
         style="@style/scores"
-        android:layout_weight=".20"
+        android:layout_weight=".19"
         android:layout_width="0px"
         android:gravity="right"/>
 
     <TextView
         android:id="@+id/jew_score"
         style="@style/scores"
-        android:layout_weight=".20"
+        android:layout_weight=".19"
         android:layout_width="0px"
         android:gravity="right"/>
+
+    <TextView
+            style="@style/scores"
+            android:layout_weight=".08"
+            android:layout_width="0px"
+            android:gravity="right"/>
 
 </TableRow>
