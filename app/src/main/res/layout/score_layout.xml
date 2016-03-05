@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/scroll_score">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:id="@+id/fillable_area">
 <TableLayout
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-     
-    android:id="@+id/score_layout" >
+    android:id="@+id/score_layout_names"
+    android:stretchColumns="*">
 
     <TableRow
         android:id="@+id/score_header"
@@ -21,31 +23,56 @@
         <TextView
             android:id="@+id/player1"
             style="@style/scores"
-            android:layout_weight=".21" />
+            android:layout_weight=".20"
+            android:layout_width="0px"
+            android:gravity="right"/>
         
         <TextView
             android:id="@+id/player2"            
             style="@style/scores"
-            android:layout_weight=".21"/>
+            android:layout_weight=".20"
+            android:layout_width="0px"
+            android:gravity="right"/>
         
         <TextView
             android:id="@+id/player3"            
             style="@style/scores"
-            android:layout_weight=".21" />
+            android:layout_weight=".20"
+            android:layout_width="0px"
+            android:gravity="right"/>
         
         <TextView
             android:id="@+id/player4"            
             style="@style/scores"
-            android:layout_weight=".21" />
+            android:layout_weight=".20"
+            android:layout_width="0px"
+            android:gravity="right"/>
         
         <TextView
             android:id="@+id/jew"
             android:text="@string/jew"            
             style="@style/scores"
-            android:layout_weight=".16" />
+            android:layout_weight=".20"
+            android:layout_width="0px"
+            android:gravity="right"/>
  
     </TableRow>
-    
-   
 </TableLayout>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll_score">
+
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:stretchColumns="*"
+            android:id="@+id/score_layout" >
+
+
+
+    </TableLayout>
 </ScrollView>
+</LinearLayout>
