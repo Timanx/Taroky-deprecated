@@ -17,9 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.timan.taroky.MainActivity" 
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait">
+            android:name="com.timan.taroky.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,9 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.timan.taroky.NewGameActivity" 
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:screenOrientation="portrait">
+            android:name="com.timan.taroky.NewGameActivity">
         </activity>
     </application>
 

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Taroky</string>
     <string name="action_settings">Settings</string>
     <string name="new_game">Nová hra</string>
@@ -45,5 +43,4 @@
     <string name="exactly_one_player">Vyberte jednoho hráče</string>
     <string name="too_many_players">Zaškrtnuto příliš mnoho hráčů</string>
     <string name="shuffling_player">míchá</string>
-
 </resources>
